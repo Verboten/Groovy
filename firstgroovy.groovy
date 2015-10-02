@@ -14,13 +14,13 @@ class HTMLGenerator{
                 script: "alert('hello');"
             }
             body(id: "main") {
-                h2 id: "book-mark",  "Tutorial on how to generate html with groovy"
+                h2 id: "book-mark",  "Generating html with groovy"
                 p {
                     mkp.yield "Mixing text with"
                     strong "strong"
                     mkp.yield " elements."
                 }
-                a href: "http://www.leveluplunch.com/java/tutorials/", "Java tutorials"
+                a href: "www.google.com", "Google"
             }
         }
         println writer
